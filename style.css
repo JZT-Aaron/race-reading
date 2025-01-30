@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+html {
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title {
+    color: #e024ca;
+    text-align: center;
+    font-size: 50px;
+    padding: 30px;
+}
+body {
+    background-color: #15171a;
+}
+.search-box {
+    width: 600px;
+    background: transparent;
+    border: 1px solid #49ff43;
+    margin: 30px auto 0;
+    border-radius: 5px;
+}
+.row {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+input {
+    flex: 1;
+    height: 50px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    color: #ffffffa8;
+}
+button {
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+button .fa-solid{
+    width: 25px;
+    color: #21df40;
+    font-size: 22px;
+    cursor: pointer;
+}
+::placeholder {
+    color: #ffffffa8;
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; 
+}
+.result-box ul{
+    border-top: 1px solid #49ff43;
+    padding: 10px 10px;
+    color: #ffffffa8;
+}
+.result-box ul li{
+    display: flex;
+    list-style: none;
+    border-bottom: 1px solid #21df40;
+    padding: 15px 10px;
+}
+.result-box ul li img{
+    margin-right: 10px;
+    height: max-content;
+    max-width: 80px;
+}
+.result-box ul li:hover:not(.no-hover){
+    background: #758292;
+}
+.result-box ul li a{
+    text-decoration: none;
+    color: #ffffffa8;
+}
+.result-box ul li a:hover{
+    cursor: pointer;
+    color: #0df819a8;
+}
+.result-box ul li div {
+    display: flex;
+    flex-direction: column;
+}
+.book-title{
+    font-weight: 700;
+    font-size: large;
+}
+.book-proptie-p{
+    font-size: small;
+}
+.pixelify {
+    font-family: "Pixelify Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.nunito {
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+

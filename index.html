@@ -1,13 +1,28 @@
 <!DOCTYPE html>
-<style>
-    html {
-        background-color: #15171a;
-    }
-    * {
-        color: #e024ca;
-    }
-</style>
 <html>
-    <title>Read-Racing</title>
-    <h1>test</h1>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booklook - Search</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/25aee47efd.js" crossorigin="anonymous"></script>
+    <div class="pixelify title">
+        <h1 class="">Booklook</h1>
+    </div>
+</head>
+<body>
+    <div class="search-box">
+        <div class="row">
+            <input type="text" id="input-box" placeholder="Name, Author, ISBN, Keywords" autocomplete="off">
+            <button class="search-button"><i class="fa-solid fa-repeat"></i></button>
+        </div>
+        <div class="result-box nunito">
+            <ul>
+                <li class="no-hover"> 
+                    Hi, just search for a book and I will show you your options here.
+                </li> 
+            <ul>
+        </div>
+    </div>
+<script src="autocomplete.js"></script>
+</body>
 </html>
