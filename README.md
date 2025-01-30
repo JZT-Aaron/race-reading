@@ -2,7 +2,12 @@
 
 ***
 
-### The Idea
+### What you need to now
+So if you want to fall down my little rabbit hole you can read the thing under the other titles. If not just read here:)
+So that's just a simple search engine for books. The Advantage is you can see the book cover while searching, but I'm gonna be honest I was too late and had too little skill to do something really cool.
+So enjoy my little application. That is hopefully the start to some better ones. Thanks :-)
+
+### The Idea Orginal
 
 Since the practice of a Friend and me, reading books at the sametime and then switching out the book. It's our tradition to share the progress in pages and calculate who needs to read quicker for us to finish the books at the same time. For this purpose I wanted to Design a Website that does the job for us. This could be especially practical for people that see themself not everyday.
 
