@@ -47,8 +47,8 @@ async function display(titles, covers, authors, years, key, editions) {
                         
                         <tagname class=".book-properties">
                             <tagname class="book-proptie-p">by</tagname> ${authors[index]}
-                            <tagname class="book-proptie-p"> ‧ Available Editions: </tagname> ${editions[index]} 
-                            <tagname class="book-proptie-p"> ‧ Published: </tagname> ${years[index]}
+                            <tagname class="book-proptie-p"> &#8231; Available Editions: </tagname> ${editions[index]} 
+                            <tagname class="book-proptie-p"> &#8231; Published: </tagname> ${years[index]}
                         </tagname>
                         <tagname class="book-descrption"> </tagname> 
                     </div>
